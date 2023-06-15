@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- El encabezado contiene información adicional sobre el documento, como su título, hojas de estilo y metadatos -->
+    <meta charset="UTF-8">
+    <!-- La metaetiqueta viewport establece cómo se muestra el contenido en dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- El título de la página se muestra en la pestaña del navegador -->
+    <title>Calculadora de IMC</title>
+    <!-- La hoja de estilo CSS define el estilo visual de la página -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- La sección principal del cuerpo de la página -->
+    <div class="container">
+      <!-- El encabezado de la página, que contiene el título principal -->
+      <div class="header">
+        <h1>Calculadora del Indice de Masa Corporal</h1>
+      </div>
+      <!-- La sección principal de la página, que contiene la imagen, el formulario y el resultado -->
+      <div class="row">
+        <!-- La primera columna, que contiene la imagen de la izquierda -->
+        <div class="column">
+          <img src="FormulaIMC.png" alt="Imagen de la izquierda">
+        </div>
+        <!-- La segunda columna, que contiene la imagen de la derecha, el formulario y el resultado -->
+        <div class="column">
+          <img src="RangosIMC.png" alt="Imagen de la derecha">
+          <!-- El formulario que permite al usuario introducir su peso y estatura -->
+          <form>
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" name="peso" required><br><br>
+            <label for="estatura">Estatura (cm):</label>
+            <input type="number" id="estatura" name="estatura" required><br><br>
+            <button type="button" onclick="calcularIMC()">Calcular</button><br><br>
+            <!-- El área de texto donde se muestra el resultado del cálculo -->
+            <label for="resultado">Observaciones:</label><br>
+            <textarea id="resultado" name="resultado" rows="6" cols="40" readonly></textarea>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- En el siguiente script se realiza el cálculo del IMC y muestra el resultado -->
+    <script src="script.js"></script>
+  </body>
+</html>

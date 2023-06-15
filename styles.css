@@ -1,0 +1,60 @@
+/* Estilos generales de la página */
+body {
+	background-color: #f2f2f2; 
+	font-family: Arial, sans-serif; /* Establecemos la fuente de la página */
+	margin: 0; /* Eliminamos el margen predeterminado del body */
+	padding: 0; /* Eliminamos el padding predeterminado del body */
+  }
+  
+  /* Título */
+  h1 {
+	text-align: center;
+  }
+  
+  /* Estilo de las imágenes */
+  img {
+	display: block; /* Hacemos que las imágenes sean bloques, para que se centren horizontalmente */
+	margin: 0 auto; /* Centramos las imágenes horizontalmente */
+	max-width: 100%; /* Ajustamos el tamaño máximo de las imágenes al ancho del contenedor */
+  }
+  
+  /* Estilo el contenedor principal */
+  .container {
+	max-width: 900px; /* Establecemos el ancho máximo del contenedor */
+	margin: 0 auto; /* Centramos el contenedor horizontalmente */
+	background-color: #f2f2f2; /* Establecemos el color de fondo del contenedor */
+	padding: 40px; /* Añadimos un padding al contenedor para separarlo de los bordes del navegador */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Añadimos una sombra al contenedor para dar profundidad */
+  }
+  
+  /* Estilos para los campos de entrada y botón */
+  .input-field {
+	margin-bottom: 20px; /* Añadimos un margen inferior a los campos de entrada */
+  }
+  
+  /* Estilos para la etiqueta del campo de entrada */
+  label {
+	display: block; /* Convertimos las etiquetas en bloques para que se muestren debajo de los campos de entrada */
+	margin-bottom: 5px; /* Añadimos un margen inferior a las etiquetas */
+  }
+  
+  /* Estilos para los campos de entrada */
+  input[type="number"] {
+	width: 100%; /* Establecemos el ancho de los campos de entrada al 100% del contenedor */
+	padding: 10px; /* Añadimos un padding a los campos de entrada */
+	border-radius: 5px; /* Añadimos bordes redondeados a los campos de entrada */
+	border: none; /* Eliminamos los bordes de los campos de entrada */
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Añadimos una sombra a los campos de entrada */
+  }
+  
+  /* Estilos para el botón de calcular */
+  button {
+	width: 100%; /* Establecemos el ancho del botón al 100% del contenedor */
+	background-color: #4CAF50; /* Establecemos el color de fondo del botón */
+	color: white; /* Establecemos el color del texto del botón */
+	padding: 10px; /* Añadimos un padding al botón */
+	border: none; /* Eliminamos los bordes del botón */
+	border-radius: 5px; /* Añadimos bordes redondeados al botón */
+	cursor: pointer; /* Cambiamos el cursor al pasar el ratón por encima del botón */
+  }
+  
